@@ -1,0 +1,244 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: 'Arial', sans-serif;
+    background-color: #333;
+}
+
+.container {
+    height: 100vh;
+    display: flex;
+    color: #fff;
+    flex-direction: column;
+}
+
+.header {
+    text-align: center;
+    padding: 20px;
+    background-color: #222; 
+    color: #fff;
+    font-size: 26px;
+}
+
+.content {
+    display: flex;
+    flex-grow: 1;
+    flex-wrap: wrap;
+}
+
+.section {
+    flex: 50%; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #fff;
+    text-decoration: none;
+    transition: transform 0.3s ease-in-out;
+}
+
+.section h2 {
+    font-size: 20px;
+    margin: 10px 0;
+}
+
+.section p {
+    font-size: 16px;
+}
+
+.newsfeed {
+    background-color: #ff4081; 
+}
+
+.forum {
+    background-color: #3f51b5; 
+}
+
+.meetings {
+    background-color: #4caf50; 
+}
+
+.training {
+    background-color: #ffc107; 
+}
+
+.section:hover {
+    transform: scale(1.05); 
+}
+
+/*以下テスト*/
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f4f4f4;
+}
+
+.news-container {
+    text-align: center;
+    padding: 40px 20px;
+    background: linear-gradient(to right, #6a11cb, #2575fc);
+    color: white;
+}
+
+h1 {
+    margin: 0 0 20px 0;
+    font-size: 2.5em;
+}
+
+.info-container {
+    background: white;
+    color: black;
+    margin-top: 20px;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    display: flex;
+    justify-content: space-around; 
+    align-items: center;
+}
+
+.info-link {
+    color: #2575fc;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.stock-info {
+    font-size: 1.2em;
+}
+
+/*forumデザイン*/
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+.forum-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    margin-top: 40px;
+}
+
+h1 {
+    color: #fff;
+    text-align: center;
+}
+
+textarea {
+    width: 100%;
+    height: 100px;
+    padding: 10px;
+    box-sizing: border-box;
+    margin-top: 20px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+button {
+    display: block;
+    width: 200px;
+    padding: 10px;
+    margin: 20px auto;
+    background-color: #5c67f2;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #4a54e1;
+}
+
+.comment-list {
+    list-style: none;
+    padding: 0;
+}
+
+.comment-item {
+    border-bottom: 1px solid #eee;
+    padding: 15px;
+    color: #666;
+}
+
+.comment-item:last-child {
+    border-bottom: none;
+}
+
+/*meetingsでざいん*/
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+}
+
+.meetings-container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    border-radius: 8px;
+}
+
+h1 {
+    color: #333;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.organization {
+    margin-top: 20px;
+    border-top: 2px solid #eee;
+    padding: 20px 0;
+}
+
+.organization:first-child {
+    border-top: none;
+}
+
+.organization h2 {
+    color: #555;
+    margin-bottom: 10px;
+}
+
+.contact-list {
+    list-style: none;
+    padding: 0;
+}
+
+.contact-item {
+    padding: 10px;
+    border-bottom: 1px solid #eee;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.contact-item:last-child {
+    border-bottom: none;
+}
+
+.contact-link {
+    color: #007bff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.contact-link:hover {
+    text-decoration: underline;
+}
+
+/*研修デザイン*/
+
